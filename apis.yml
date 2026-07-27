@@ -1,8 +1,23 @@
 aid: honest-food-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/honest-food-company.png
 name: Honest Food Company
-description: 'Honest Food Company is a company surfaced as a portfolio company of creandum and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Honest Food Company GmbH is a Berlin-based cloud-kitchen / ghost-restaurant operator founded
+  in 2017 that produced and delivered food under a portfolio of virtual delivery-only brands (Mamacita,
+  Blattgold, Baba Noni, Beste Freunde, Holy Chicken, Clubkitchen) ordered through its own sites and third-party
+  delivery platforms. Backed by Creandum and Index Ventures, it was acquired by Delivery Hero SE in February
+  2020 and folded into the Delivery Hero group; it operates no independent public developer/API surface.
+  Added to the API Evangelist network as a Creandum portfolio lead. Sector: consumer / food delivery.'
 url: https://raw.githubusercontent.com/api-evangelist/honest-food-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +25,31 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: delivery-hero
+x-acquired-date: '2020-02-28'
+x-enrichment-note: 'No public API, developer portal, docs, or resolving company domain found (acquired by
+  Delivery Hero in 2020 and folded into the group); no API artifacts to search/generate/derive.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Food Delivery
+- Cloud Kitchen
+- Ghost Restaurant
+- Food Tech
+- Berlin
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
