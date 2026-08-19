@@ -30,7 +30,7 @@ x-acquired-by: delivery-hero
 x-acquired-date: '2020-02-28'
 x-enrichment-note: 'No public API, developer portal, docs, or resolving company domain found (acquired by
   Delivery Hero in 2020 and folded into the group); no API artifacts to search/generate/derive.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
